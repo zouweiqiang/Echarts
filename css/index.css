@@ -1,0 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url(../imges/bg1.jpg) no-repeat;
+  min-width: 1024px;
+}
