@@ -197,7 +197,7 @@ header {
     opacity: 0.3;
     background-size: 100% 100%;
   }
- 
+
   .map2 {
     position: absolute;
     top: 50%;
@@ -245,5 +245,17 @@ header {
     to {
       transform: translate(-50%, -50%) rotate(-360deg);
     }
+  }
+}
+
+/* 约束屏幕尺寸 */
+@media screen and (max-width: 1024px) {
+  html {
+    font-size: 42px !important;
+  }
+}
+@media screen and (min-width: 1920px) {
+  html {
+    font-size: 80px !important;
   }
 }
